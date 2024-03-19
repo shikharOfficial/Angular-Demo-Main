@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map
+ PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>
+    <b>cache api calls</b>
+  </title>
+  <topicref href="_cache_api_calls.dita" navtitle=" Cache API calls"></topicref>
+</map>
