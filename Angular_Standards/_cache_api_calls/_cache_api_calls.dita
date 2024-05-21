@@ -2,7 +2,11 @@
 <!DOCTYPE topic
  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="d3aAfx">
-  <title>Cache API calls</title>
+  <title>
+    <b>
+      <i>Cache API calls</i>
+    </b>
+  </title>
   <body>
     <image href="../../images/metapercept_information_solutions__consulting_logo.jpeg"></image>
     <equation-block></equation-block>
