@@ -2,40 +2,47 @@
 <!DOCTYPE topic
  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="d3aAfr">
-   <title>Avoid logic in templates</title>
-   <body>
-      <table>
-         <tgroup cols="1">
-            <colspec colname="col1" colwidth="90.16%"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>// template</p>
-                     <p>Status: Unavailable// component</p>
-                     <p>ngOnInit (): void {</p>
-                     <p>this.aliases=resp.value;</p>
-                     <p>}</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <table>
-         <tgroup cols="1">
-            <colspec colname="col1" colwidth="90.16%"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>// template</p>
-                     <p>Status: Unavailable// component</p>
-                     <p>ngOnInit (): void {</p>
-                     <p>this.aliases=resp.value;</p>
-                     <p>this.isUnavailable = this.aliases === 'inActive' || 'hold';</p>
-                     <p>}</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-   </body>
+  <title>Avoid logic in templates</title>
+  <body>
+    <table>
+      <title>Title Hehe</title>
+      <tgroup cols="1">
+        <colspec colname="col1" colwidth="90.16%"></colspec>
+        <thead>
+          <row>
+            <entry>Heading Hehe</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              <p>// template</p>
+              <p>Status: Unavailable// component</p>
+              <p>ngOnInit (): void {</p>
+              <p>this.aliases=resp.value;</p>
+              <p>}</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <title>Title 2</title>
+      <tgroup cols="1">
+        <colspec colname="col1" colwidth="90.16%"></colspec>
+        <tbody>
+          <row>
+            <entry>
+              <p>// template</p>
+              <p>Status: Unavailable table:not(:has(thead)) tbody .row:nth-child(1) // component</p>
+              <p>ngOnInit (): void {</p>
+              <p>this.aliases=resp.value;</p>
+              <p>this.isUnavailable = this.aliases === &apos;inActive&apos; || &apos;hold&apos;;</p>
+              <p>}</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
 </topic>
